@@ -20,7 +20,7 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
-            "scripts": ["https://www.geogebra.org/apps/deployggb.js"]
+            "scripts": ["src/deployggb.js"]
           },
           "configurations": {
             "production": {

@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import * as GGBApplet from 'deployggb';
-
-declare const GGBApplet: any;
+import * as GGBApplet from 'deployggb';
 
 @Component({
   selector: 'app-editor',
