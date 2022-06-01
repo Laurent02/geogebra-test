@@ -9,5 +9,6 @@ import { AppRoutingModule } from './app.routing.module';
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
+  providers: [{ provide: 'windowObject', useValue: window }],
 })
 export class AppModule {}
